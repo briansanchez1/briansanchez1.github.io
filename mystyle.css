@@ -63,9 +63,10 @@ main {
 
 .menu-item-details {
   height: 0;
-  transition: height 0.3s ease;
+  overflow: hidden;
+  transition: height 0.5s ease;
 }
 
-.menu-item:hover .menu-item-details {
+.menu-section:hover .menu-item-details {
   height: auto;
 }
