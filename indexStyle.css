@@ -125,7 +125,7 @@ main {
 .menu-section:hover .menu-item-details{
   display: block;
   max-height: 500px; /* Adjust the value to fit your content */
-perspective: 1000px;
+perspective: 75px;
 }
 
 .menu-section:hover .menu-item-details p {
@@ -157,6 +157,18 @@ perspective: 1000px;
 .menu-section:hover .menu-item-details p:nth-child(5) {
   animation: animate 300ms ease-in-out forwards;
   animation-delay: 450ms;
+}
+.menu-section:hover .menu-item-details p:nth-child(6) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 600ms;
+}
+.menu-section:hover .menu-item-details p:nth-child(7) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 750ms;
+}
+.menu-section:hover .menu-item-details p:nth-child(8) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 900ms;
 }
 
 @keyframes animate {
