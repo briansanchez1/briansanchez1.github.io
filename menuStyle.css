@@ -6,6 +6,7 @@
       font-size: small;
       position: fixed;
       padding: 30px;
+      align-items: center
     }
   }
   @-moz-document url-prefix() {
@@ -16,6 +17,7 @@
       font-size: medium;
       position: fixed;
       padding: 30px;
+      align-items: center;
     }
   }
   @media not all and (-webkit-min-device-pixel-ratio:0) {
@@ -26,9 +28,13 @@
       font-size: medium;
       position: fixed;
       padding: 30px;
+      align-items: center;
+      ;
     }
   }
-
+main{
+    text-align: center;
+}
 nav ul {
     display: flex;
     list-style: none;
