@@ -38,8 +38,6 @@ body header h1 {
   position: fixed;
   top: 0;
   left: 0;
-  height: 150px; /* Adjust the height as desired */
-  width: 150px; /* Adjust the width as desired */
 }
 
 nav ul {
