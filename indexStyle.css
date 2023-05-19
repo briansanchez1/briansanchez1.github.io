@@ -116,28 +116,6 @@ main {
   position: relative;
 }
 
-.menu-item-details::before {
-  content: attr(data-price);
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #ddd;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 14px;
-  color: black;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease;
-}
-
-.menu-item-details:hover::before {
-  opacity: 1;
-  visibility: visible;
-
-}
 
 .menu-section:hover {
   box-shadow: 0 0 8px rgba(99, 6, 71,2);
