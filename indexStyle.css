@@ -30,6 +30,7 @@ header {
   flex-direction: column;
   text-align: center;
 
+
 }
 
 body header h1 {
@@ -43,7 +44,10 @@ body header h1 {
 nav ul {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
 }
 
 nav li a {
