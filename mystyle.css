@@ -80,5 +80,6 @@ main {
 }
 
 .menu-section:hover .menu-item-details{
-  height: block;
+  display: block;
+  height: auto;
 }
