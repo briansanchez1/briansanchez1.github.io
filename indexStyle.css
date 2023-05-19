@@ -55,6 +55,7 @@ nav li a {
 
 nav li a:hover {
   background-color: #ddd;
+  box-shadow: 0 0 8px rgba(99, 6, 71,2);
 }
 
 
@@ -78,10 +79,10 @@ main {
   width: 30%;
   margin-bottom: 20px;
   text-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 10px;
   transition: 500ms ease;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
 }
 
 .menu-section-heading {
@@ -102,10 +103,9 @@ main {
 }
 
 .menu-section:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(99, 6, 71,2);
 }
 
 .menu-section:hover .menu-item-details{
   display: block;
-  height: auto;
 }
