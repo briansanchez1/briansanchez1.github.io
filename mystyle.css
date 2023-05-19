@@ -71,11 +71,25 @@ footer{
 }
 
 .menu-item-details {
-  height: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: pink;
+  padding: 10px;
   overflow: hidden;
+  height: 0;
   transition: height 0.3s ease;
 }
 
+.menu-item {
+  position: relative;
+}
+
+
+
 .menu-item:hover .menu-item-details {
+  display: block;
   height: auto;
 }
