@@ -43,6 +43,21 @@ nav ul {
   padding: 0;
 }
 
+nav li a {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: black;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+}
+
+
 nav li {
   margin-right: 10px;
 }
@@ -56,6 +71,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 20px;
 }
 
 .menu-section {
@@ -65,10 +81,14 @@ main {
   border: 2px solid black;
   padding: 10px;
   transition: 500ms ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .menu-section-heading {
   cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .menu-item-details {
@@ -85,7 +105,7 @@ main {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.menu-section.expanded .menu-item-details {
+.menu-section:hover .menu-item-details{
   display: block;
   height: auto;
 }
