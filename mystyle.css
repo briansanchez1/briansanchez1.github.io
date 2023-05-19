@@ -19,7 +19,6 @@
 
 header {
   display: flex;
-  position: fixed;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -51,15 +50,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-footer{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: pink;
-  padding: 10px;
-  text-align: center;
-}
+
 .menu-section {
   width: 30%;
   margin-bottom: 20px;
@@ -71,25 +62,11 @@ footer{
 }
 
 .menu-item-details {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: pink;
-  padding: 10px;
-  overflow: hidden;
   height: 0;
+  overflow: hidden;
   transition: height 0.3s ease;
 }
 
-.menu-item {
-  position: relative;
-}
-
-
-
 .menu-item:hover .menu-item-details {
-  display: block;
   height: auto;
 }
