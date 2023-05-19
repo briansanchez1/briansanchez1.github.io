@@ -103,15 +103,21 @@ main {
   font-size: 125%;
   padding: 10px;
   border-radius: 5px;
-  height: auto;
+  max-height: 0;
   overflow: hidden;
-  transition: height 0.5s ease;
+  transition: max-height 0.5s ease;
 }
 
 .menu-section:hover {
   box-shadow: 0 0 8px rgba(99, 6, 71,2);
+
 }
 
 .menu-section:hover .menu-item-details{
   display: block;
+  max-height: 500px; /* Adjust the value to fit your content */
+  -webkit-transition: max-height 250ms ease-out;
+  -moz-transition: max-height 250ms ease-out;
+  -o-transition: max-height 250ms ease-out;
+  transition: max-height 250ms ease-out;
 }
