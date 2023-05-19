@@ -95,6 +95,7 @@ main {
 .menu-item-details {
   display: none;
   background-color: pink;
+  font-size: 125%;
   padding: 10px;
   border-radius: 5px;
   height: auto;
