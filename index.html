@@ -1,142 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
+    <link rel="stylesheet" href="mystyle.css">
     <title>Lily's Bakery Coffee Shop</title>
-    <style>
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 20px;
-        }
 
-        header h1 {
-            margin: 0;
-            padding-bottom: 10px;
-        }
+  </head>
 
-        nav ul {
-            display: flex;
-            list-style: none;
-            padding: 0;
-        }
-
-        nav li {
-            margin-right: 10px;
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <header>
-        <h1>Coffee and Bakery Shop</h1>
-        <p style="margin: 0;">Located at XYZ, XYZ, PA | 123-456-7890</p>
+      <h1><img src="https://cdn.discordapp.com/attachments/1108536679620431955/1108942720757678090/image_2023-05-18_222207620-removebg-preview.png" alr="Logo"></h1>
+      <p>Located at XYZ, XYZ, PA | 123-456-7890</p>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="https://cdn.discordapp.com/attachments/1108536679620431955/1108772210023338116/Tia.png">Menu</a></li>
-            <li><button type="submit">Order Online</button></li>
-            <li><button type="submit">Contact</button></li>
-        </ul>
+      <ul>
+        <li><a href="https://cdn.discordapp.com/attachments/1108536679620431955/1108772210023338116/Tia.png">Menu</a></li>
+        <li><button type="submit">Order Online</button></li>
+        <li><button type="submit">Contact</button></li>
+      </ul>
     </nav>
     <main>
-        <div>
-            <label for="menu-items">Click an item on the list (nothing is going to happen at the moment)</label>
-            <ul>
-                <li>Tacos
-                    <select name="menu-items" id="Tacos">
-                        <option value="chicken">Chicken</option>
-                        <option value="pork">Pork</option>
-                        <option value="beef">Beef</option>
-                    </select>
-                </li>
+      <div>
+        <label for="menu-items">Click an item on the list (nothing is going to happen at the moment)</label>
+        <ul>
+          <li>Tacos
+            <select name="menu-items" id="Tacos">
+              <option value="chicken">Chicken</option>
+              <option value="pork">Pork</option>
+              <option value="beef">Beef</option>
+            </select>
+          </li>
 
-                <li>Yaroas
-                    <select name="menu-items" id="Yaroas">
-                        <option value="chicken">Chicken</option>
-                        <option value="pork">Pork</option>
-                        <option value="beef">Beef</option>
-                        <option value="mixed">Mixed</option>
-                    </select>
-                </li>
+          <li>Yaroas
+            <select name="menu-items" id="Yaroas">
+              <option value="chicken">Chicken</option>
+              <option value="pork">Pork</option>
+              <option value="beef">Beef</option>
+              <option value="mixed">Mixed</option>
+            </select>
+          </li>
 
-                <li>Hamburgers
-                    <select name="menu items" id="Hamburgers">
-                        <option value="Cheeseburger">Cheeseburger</option>
-                        <option value="Bacon Cheeseburger">Bacon Cheeseburger</option>
-                        <option value="Bacon Double Cheeseburger">Bacon Double Cheeseburger with Egg</option>
-                      </select>
-                </li>
+          <li>Hamburgers
+            <select name="menu items" id="Hamburgers">
+              <option value="Cheeseburger">Cheeseburger</option>
+              <option value="Bacon Cheeseburger">Bacon Cheeseburger</option>
+              <option value="Bacon Double Cheeseburger">Bacon Double Cheeseburger with Egg</option>
+            </select>
+          </li>
 
-                <li>Chimis
-                    <select name="menu-items" id="Chimis">
-                        <option value="Chicken">Chicken</option>
-                        <option value="Porl">Pork</option>
-                        <option value="Beef">Beef</option>
-                      </select>
-                </li>
+          <li>Chimis
+            <select name="menu-items" id="Chimis">
+              <option value="Chicken">Chicken</option>
+              <option value="Porl">Pork</option>
+              <option value="Beef">Beef</option>
+            </select>
+          </li>
 
-                <li>Dominican Sandwhiches
-                    <select name="menu-items" id="Dominican Sandwhiches">
-                        <option value="Ham">Ham</option>
-                        <option value="Cheese">Cheese</option>
-                        <option value="Ham and Cheese">Ham and Cheese</option>
-                        <option value="Club">Club Sandwhich</option>
-                        <option value="Complete">Complete/Completo</option>
-                      </select>
-                </li>
+          <li>Dominican Sandwhiches
+            <select name="menu-items" id="Dominican Sandwhiches">
+              <option value="Ham">Ham</option>
+              <option value="Cheese">Cheese</option>
+              <option value="Ham and Cheese">Ham and Cheese</option>
+              <option value="Club">Club Sandwhich</option>
+              <option value="Complete">Complete/Completo</option>
+            </select>
+          </li>
 
-                <li>Empanadas
-                    <select name="menu-items" id="Empanadas">
-                        <option value="Beef">Beef/Res</option>
-                        <option value="Chicken">Chicken/Pollo</option>
-                        <option value="Egg">Huevo/Egg Bacon</option>
-                        <option value="Cheese">Cheese/Queso</option>
-                        <option value="Vegetables">Vegetables/Vegetales</option>
-                      </select>
-                </li>
+          <li>Empanadas
+            <select name="menu-items" id="Empanadas">
+              <option value="Beef">Beef/Res</option>
+              <option value="Chicken">Chicken/Pollo</option>
+              <option value="Egg">Huevo/Egg Bacon</option>
+              <option value="Cheese">Cheese/Queso</option>
+              <option value="Vegetables">Vegetables/Vegetales</option>
+            </select>
+          </li>
 
-                <li>Picaderas
-                    <select name="menu-items" id="Picaderas">
-                        <option value="Quipes">Quipes</option>
-                        <option value="Bollitos">Bollitos De Yuca</option>
-                        <option value="Bolas">Bolas De Papas</option>
-                      </select>
-                </li>
+          <li>Picaderas
+            <select name="menu-items" id="Picaderas">
+              <option value="Quipes">Quipes</option>
+              <option value="Bollitos">Bollitos De Yuca</option>
+              <option value="Bolas">Bolas De Papas</option>
+            </select>
+          </li>
 
-                <li>Postres (Desserts)
-                    <select name="menu-items" id="Postres">
-                        <option value="Flan">Flan</option>
-                        <option value="Quesillo">Quesillo</option>
-                        <option value="Postres">Tres Leches</option>
-                        <option value="Postres">Arepa De Maiz</option>
-                        <option value="Postres">Majarete</option>
-                        <option value="Postres">Arroz Con Leche</option>
-                      </select>
-                </li>
+          <li>Postres (Desserts)
+            <select name="menu-items" id="Postres">
+              <option value="Flan">Flan</option>
+              <option value="Quesillo">Quesillo</option>
+              <option value="Postres">Tres Leches</option>
+              <option value="Postres">Arepa De Maiz</option>
+              <option value="Postres">Majarete</option>
+              <option value="Postres">Arroz Con Leche</option>
+            </select>
+          </li>
 
-                <li>Bebidas
-                    <select name="menu-items" id="Bebidas">
-                        <option value="Chinola">Chinola</option>
-                        <option value="Limon">Limon</option>
-                        <option value="Zapote">Zapote</option>
-                        <option value="Soda">Soda</option>
-                        <option value="Tamarindo">Tamarindo</option>
-                        <option value="Lechosa">Lechosa</option>
-                        <option value="Morisoniando">Morisonando</option>
-                        <option value="Water">Water</option>
-                      </select>
-                </li>
-            </ul>
+          <li>Bebidas
+            <select name="menu-items" id="Bebidas">
+              <option value="Chinola">Chinola</option>
+              <option value="Limon">Limon</option>
+              <option value="Zapote">Zapote</option>
+              <option value="Soda">Soda</option>
+              <option value="Tamarindo">Tamarindo</option>
+              <option value="Lechosa">Lechosa</option>
+              <option value="Morisoniando">Morisonando</option>
+              <option value="Water">Water</option>
+            </select>
+          </li>
+        </ul>
 
-            <img src="https://cdn.discordapp.com/attachments/1108536679620431955/1108772210023338116/Tia.png" height="500" alt="image that has the menu. From left to right: Tacos, Yaroas, Hamburger, Chimis, Domincian Sandwhiches, Empanadas, Postres (Desserts), Picaderas, Bebidas (Drinks)">
+        <img src="https://cdn.discordapp.com/attachments/1108536679620431955/1108772210023338116/Tia.png" height="500" alt="image that has the menu. From left to right: Tacos, Yaroas, Hamburger, Chimis, Domincian Sandwhiches, Empanadas, Postres (Desserts), Picaderas, Bebidas (Drinks)">
 
-        </div>
+      </div>
     </main>
     <footer> This is soley for the purpose of practicing web development, and has no merit in the real world other than that.</footer>
-</body>
+  </body>
 
 </html>
