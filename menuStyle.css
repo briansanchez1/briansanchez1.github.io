@@ -3,7 +3,7 @@
       background-color: pink;
       opacity: 0.8;
       font-family: Verdana;
-      font-size: small;
+      font-size: medium;
       position: fixed;
       padding: 30px;
       align-items: center
@@ -34,6 +34,7 @@
   }
 main{
     text-align: center;
+    align-items: center;
 }
 nav ul {
     display: flex;
