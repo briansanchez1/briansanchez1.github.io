@@ -55,6 +55,9 @@ main {
   width: 30%;
   margin-bottom: 20px;
   text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: 0.3s ease;
 }
 
 .menu-section-heading {
@@ -62,11 +65,20 @@ main {
 }
 
 .menu-item-details {
+  display: none;
+  background-color: pink;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   height: 0;
   overflow: hidden;
-  transition: height 0.5s ease;
+  transition: 0.5s ease;
 }
 
-.menu-section:hover .menu-item-details {
-  height: auto;
+.menu-section:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-section:hover .menu-item-details{
+  height: block;
 }
