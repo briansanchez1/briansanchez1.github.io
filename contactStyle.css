@@ -13,7 +13,6 @@
     opacity: 0.8;
     font-family: Verdana;
     font-size: medium;
-
   }
 }
 @media not all and (-webkit-min-device-pixel-ratio:0) {
@@ -22,8 +21,6 @@
     opacity: 0.8;
     font-family: Verdana;
     font-size: medium;
-
-    ;
   }
 }
 
@@ -33,7 +30,9 @@ header {
   flex-direction: column;
   text-align: center;
 
+
 }
+
 body header h1 {
   margin: 0;
   padding: 10px;
@@ -45,7 +44,10 @@ body header h1 {
 nav ul {
   display: flex;
   list-style: none;
-  padding: 5px;
+  padding: 0px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
 }
 
 nav li a {
@@ -70,19 +72,19 @@ nav li a:hover {
   transition: box-shadow 250ms ease-out;
 }
 
+
 nav li {
   margin-right: 10px;
 }
+
 .centered-nav {
   display: flex;
   justify-content: center;
 }
 
-
 main {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
 }
-
