@@ -95,6 +95,9 @@ main {
   text-align: center;
   padding: 10px;
   transition: 500ms ease;
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: perspective(75px) rotateX(0deg);
 }
 
 .menu-section-heading {
@@ -119,13 +122,16 @@ main {
 
 .menu-section:hover {
   box-shadow: 0 0 8px rgba(99, 6, 71,2);
-perspective: 75px;
+transform: perspective(75px) rotateX(20deg);
 }
 
 .menu-section:hover .menu-item-details{
   display: block;
   max-height: 500px; /* Adjust the value to fit your content */
-perspective: 75px;
+  transition: max-height 0.5s ease;
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: perspective(75px) rotateX(0deg);
 }
 
 .menu-section:hover .menu-item-details p {
@@ -202,5 +208,5 @@ perspective: 75px;
     opacity: 1;
     transform: scale(1);
   }
-
 }
+
