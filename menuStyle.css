@@ -42,10 +42,6 @@
     left: 0;
   }
 
-main{
-    text-align: center;
-    align-items: center;
-}
 nav ul {
     display: flex;
     list-style: none;
@@ -74,11 +70,14 @@ nav ul {
     transition: box-shadow 250ms ease-out;
   }
   
-  
   nav li {
     margin-right: 10px;
   }
-
+  .centered-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
   
 main {
   display: flex;
