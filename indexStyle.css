@@ -95,9 +95,6 @@ main {
   text-align: center;
   padding: 10px;
   transition: 500ms ease;
-  transform-origin: center top;
-  transform-style: preserve-3d;
-  transform: perspective(75px) rotateX(0deg);
 }
 
 .menu-section-heading {
@@ -122,16 +119,13 @@ main {
 
 .menu-section:hover {
   box-shadow: 0 0 8px rgba(99, 6, 71,2);
-transform: perspective(75px) rotateX(20deg);
+
 }
 
 .menu-section:hover .menu-item-details{
   display: block;
   max-height: 500px; /* Adjust the value to fit your content */
-  transition: max-height 0.5s ease;
-  transform-origin: center top;
-  transform-style: preserve-3d;
-  transform: perspective(75px) rotateX(0deg);
+perspective: 75px;
 }
 
 .menu-section:hover .menu-item-details p {
@@ -183,7 +177,7 @@ transform: perspective(75px) rotateX(20deg);
     transform: rotateX(-90deg);
   }
   
-  50% {
+  5% {
     transform: rotateX(20deg);
   }
   
@@ -192,21 +186,3 @@ transform: perspective(75px) rotateX(20deg);
     transform: rotateX(0deg);
   }
 }
-.menu-area li:hover > .dropdown {
-  animation: animate-box 500ms ease-in-out forwards;
-}
-
-@keyframes animate-box {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(0.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
