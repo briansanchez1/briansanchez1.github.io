@@ -3,7 +3,7 @@
     background-color: pink;
     opacity: 0.8;
     font-family: Verdana;
-    font-size: small;
+    font-size: medium;
 
   }
 }
@@ -186,3 +186,4 @@ perspective: 75px;
     transform: rotateX(0deg);
   }
 }
+
