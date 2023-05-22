@@ -134,7 +134,7 @@ main {
 }
 
 .menu-section:hover .menu-item-details {
-  max-height: 500px; /* Adjust the value to fit your content */
+  max-height: auto; /* Adjust the value to fit your content */
 }
 
 .menu-item-details p {
@@ -213,3 +213,67 @@ main {
   }
 }
 
+
+
+
+.menu-section.inactive .menu-item-details p {
+  transform-origin: bottom center;
+  opacity: 1;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(8) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: -150ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(7) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 0ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(6) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 150ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(5) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 300ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(4) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 450ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(3) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 600ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(2) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 750ms;
+}
+
+.menu-section.inactive .menu-item-details p:nth-child(1) {
+  animation: animate-out 300ms ease-in-out forwards;
+  animation-delay: 900ms;
+}
+
+
+@keyframes animate-out {
+  0% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+  
+  5% {
+    transform: rotateX(20deg);
+  }
+  
+  100% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+}
